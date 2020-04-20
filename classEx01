@@ -6,11 +6,16 @@
     <title>My Future Class Goals</title>
 </head>
 <body>
-<p> My Future Class Goals
-<br> 1. Learn HTML5 
-<br> 2. Create a unique website 
-<br> 3. Learn Javascript
-<br> 4. Apply Javascript scripts into HTML website
-</p>
+    <p>
+        My Future Class Goals
+            <br> 
+                1. Learn HTML5 
+            <br> 
+                2. Create a unique website 
+            <br> 
+                3. Learn Javascript
+            <br> 
+                4. Apply Javascript scripts into HTML website
+    </p>
 </body>
 </html>
