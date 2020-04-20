@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY FUTURE CLASS GOALS</title>
+    <title>My Future Class Goals</title>
 </head>
 <body>
-    1.Learn HTML
-    2.Create a unique webpage 
-    3.
-    4.
-    5.
+<p> My Future Class Goals
+<br> 1. Learn HTML5 
+<br> 2. Create a unique website 
+<br> 3. Learn Javascript
+<br> 4. Apply Javascript scripts into HTML website
+</p>
 </body>
 </html>
