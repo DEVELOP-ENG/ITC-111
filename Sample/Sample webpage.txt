@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class Excersize 02C</title>
+<link rel="stylesheet" type="text/css" href="Style tags 01.css">
+</head>
+<body>
+    <header">
+        <h1>ITC 111 Class Exercise</h1>
+    </header>
+
+    <nav>
+        <h3>Class Excersize Links</h3>
+        <hr>
+        <br>
+            <a href="">Item 1</a>
+        <br>    
+            <a href="">Item 2</a>
+        <br>    
+            <a href="">Item 3</a>
+        <br>
+            <a href="">Item 4</a>
+    </nav>
+
+    <section>
+        <h2>Description of Item 01</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat magnam et nemo ab. Quia saepe sequi cupiditate a dolores, quidem illo, dignissimos blanditiis deserunt modi, odio excepturi adipisci ullam?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tempora iure nihil alias esse non voluptate ut nam deleniti quia debitis temporibus, dolores repudiandae, dignissimos sed cum laborum eos libero?</p>
+    </section>
+    <footer>
+         <div class="footer">
+             <p>Copyright &COPY; ITC-111</p>
+         </div>
+    </footer>
+</body>
+</html>
