@@ -2,7 +2,6 @@
   .body {
       width: 50%;
       margin: 0px auto;
-      text-align: center;
   }
   .header {
       background-color: burlywood;
@@ -27,9 +26,6 @@
   }
   .footer {
         position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
         background-color: burlywood;
         color: white;
         text-align: center;
