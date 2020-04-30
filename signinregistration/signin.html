@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Sign In</title>
-    <style>
-        .container {
-            border: 1px chocolate dotted;
-            width: 500px;
-            height: 100px;
-        }
+    <head>
+        <title>Sign In</title>
+        <link rel="stylesheet" a href="style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <header id="mainHeader">
+                Need an account?
+                <a href="register.html">Register</a>
+            </header>
+            
+            <section>
+                <form action="formsphp.php" method="POST">
+                    <div id="form">
+                        <div id="label">
+                            <label>Username</label>
+                        </div>
+                        <input type="text" name="UserName">
+                        <br>
+                        <div id="label">
+                            <label>Password</label>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <a href="#">Forgot Username or Password</a>
+                            <br>
+                            <input type="submit" name="submit">
+                        </div>
+                    </div>
+                </form>
 
-
-    </style>
-</head>
-<body>
-    <div class="container">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facilis accusamus iure earum qui magnam a commodi tenetur fuga, id, quasi, eveniet sequi veniam mollitia dolore! Impedit nam ullam non.
-        </p>
-
-
-
-    </div>
-
-</body>
+            </section>
+        </div>
+    </body>
 </html>
