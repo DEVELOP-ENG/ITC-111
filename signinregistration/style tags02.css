@@ -1,0 +1,24 @@
+
+.container {
+    background-color: darkgreen;
+    border-radius: 20px;
+    border: 4px orangered solid;
+    margin: 0 auto;
+    width: 45%;
+    overflow: hidden;
+}
+#mainHeader {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#form {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+#label {
+    text-align: center;
+}

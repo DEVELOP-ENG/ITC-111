@@ -5,7 +5,11 @@
     <link rel="stylesheet" href="style tags02.css">
 </head>
 <body>
-    <div>
+    <div class="container">
+        <header id="mainHeader">
+            Need an account?
+            <a href="register.html">Register</a>
+        </header>
     <Form action="somephpage.php" method="POST">
         <div>
             <label>First Name:</label>
@@ -25,11 +29,15 @@
             <label>Birthdate:</label>
                 <input type="date" name="Birthdate" placeholder="Choose your birthday.">
         </div>
+        <div>
             <label>Gender:</label>
                 <select name="gender">
                     <option value="Female"></option>
                     <option value="Male"></option> 
-
+        </div>
+        <br>
+        <hr>
+        <br>
         <label>Message:</label>
             <textarea name="message"></textarea>
                 <input type="submit" name="submit" value="submit">
