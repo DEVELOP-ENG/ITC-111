@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="style tags02.css">
 </head>
 <body>
     <div class="container">
         <header id="mainHeader">
-            Need an account?
-            <a href="register.html">Register</a>
+            Have an account?
+            <a href="signin.html">Register</a>
         </header>
-    <Form action="somephpage.php" method="POST">
-        <div>
-            <label>First Name:</label>
-                <input type="text" name="First name" placeholder="Enter your first name">
-        </div>
-        <div>
-            <label>Last Name:</label>
-                <input type="text" name="Last name" placeholder="Enter your last name">
-        </div>
-            <label>Email:</label>
-                <input type="email" name="email" placeholder="Enter your email">
-        <div>
-            <label>Age:</label>
-                <input type="number" name="age" placeholder="Enter your age">
-        </div>
-        <div>
-            <label>Birthdate:</label>
-                <input type="date" name="Birthdate" placeholder="Choose your birthday.">
-        </div>
-        <div>
-            <label>Gender:</label>
-                <select name="gender">
-                    <option value="Female"></option>
-                    <option value="Male"></option> 
-        </div>
-        <br>
-        <hr>
-        <br>
-        <label>Message:</label>
-            <textarea name="message"></textarea>
-                <input type="submit" name="submit" value="submit">
-        </div>
-    </Form>
+
+        <section>
+            <Form action="somephpage.php" method="POST">
+                <div id="formData">
+                    <div class="label">
+                        <br>
+                        <label>Names:</label><br>
+                        <input type="text" name="First name" placeholder="Enter your first name">&nbsp;
+                        <input type="text" name="Last name" placeholder="Enter your last name">
+                    </div>
+                    <div>
+                        <div class="label">
+                            <label>Age:</label><br>
+                            <input type="number" name="age" placeholder="Enter your age">
+                        </div>
+                    </div>
+
+                    <div class="label">
+                        <label>Email:</label><br>
+                            <input type="email" name="email" placeholder="Enter your email">&nbsp;
+                            <input type="email" name="email" placeholder="Confirm your email">
+                    </div>
+                    <div class="label">
+                        <label>Username:</label>
+                            <input type="text" name="Username" placeholder="Enter a Username">
+                    </div>
+                    <div class="label">
+                        <label>Password</label>
+                        <input type="text" name="Password" id="Enter Your Password">
+                        <input type="text" name="Password" id="Confirm Your Password">
+                    </div>
+                    <br>
+                
+                        <textarea name="message"></textarea>
+                            <input type="submit" name="submit" value="submit">
+                    </div>
+            </Form>
+        </section>
+
+    </div>
 </body>
 </html>

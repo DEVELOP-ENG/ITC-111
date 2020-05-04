@@ -13,12 +13,17 @@
     color: white;
     padding: 10px;
 }
-#form {
+#formData {
     margin: 0 auto;
     text-align: center;
     color: white;
     padding: 10px;
+
 }
 #label {
     text-align: center;
+}
+
+#age {
+    width: 30px;
 }
