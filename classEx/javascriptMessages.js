@@ -34,5 +34,15 @@ var type = [];
 //array methods
 
 //length method - gets the number of elements in an array
+    //console.log(fruits.length); 
 
-console.log(fruits.length); 
+
+//push() - adds new element to end of array
+    //fruits.push('sugar')
+    //console.log(fruits);
+    //fruits.pop(sugar);
+    //console.log(fruits);
+    //console.log(fruits.sort());
+
+    //toString() method - convers an element of a string and returns the result as string
+    console.log(fruits.toString());
