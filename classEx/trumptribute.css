@@ -13,14 +13,14 @@
 }
 
 body {
-	background-image: url(../Images/Peach+Trump.jpg);
+	background-image: url(../Images/2jobs.jpg);
 	font-family: segoe ui;
 	font-size: 62.5%;
 
 }
 
 #main {
-	background-image: url(../Images/Peach+Trump.jpg);
+	background-image: url(../Images/2jobs.jpg);
 	background-color: var(--primary-color);
 	overflow: hidden; /*from collapsing the margin*/
 }
