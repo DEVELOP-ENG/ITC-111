@@ -91,14 +91,35 @@ function is called whenever the text in the right div element needs to be change
 */
 function changeDivRightText(txt){
 // the 'if' condition sets the text to display if Link 1a is clicked
-if(txt == 'Assignments') {
+if(txt == 'Class Excersize 1') {
 document.getElementById('divRight').innerHTML = 'Content from Link 1a';
 // the 'else if' condition sets the text to display if Link 1b is clicked
-} else if (txt == 'Excersize') {
-document.getElementById('divRight').innerHTML = 'Content from Link 1b';
+} else if (txt == 'Class Excersize 2a') {
+document.getElementById('divRight').innerHTML = 'Content from Link 2a';
 // the 'else' is the text to display by default
-} else {
-document.getElementById('divRight').innerHTML = 'ITC 111 PROGRAM & WEB PG CONCEPT ';
+} 
+} else if (txt == 'Class Excersize 2b') {
+document.getElementById('divRight').innerHTML = 'Content from Link 2b';
+// the 'else' is the text to display by default
+} 
+} else if (txt == 'Class Excersize 3') {
+document.getElementById('divRight').innerHTML = 'Content from Link 3';
+// the 'else' is the text to display by default
+} 
+} else if (txt == 'Class Excersize 4a') {
+document.getElementById('divRight').innerHTML = 'Content from Link 4a';
+// the 'else' is the text to display by default
+} 
+} else if (txt == 'Class Excersize 5') {
+document.getElementById('divRight').innerHTML = 'Content from Link 5';
+// the 'else' is the text to display by default
+} 
+} else if (txt == 'Class Excersize 6') {
+document.getElementById('divRight').innerHTML = 'Content from Link 6';
+// the 'else' is the text to display by default
+} 
+else {
+document.getElementById('divRight').innerHTML = 'ITC 111 Program and Webpage Concept';
 }
 }
 </script>
@@ -130,10 +151,10 @@ This link is calling a function that is in our script tag.
 'onclick' is an event attribute. All tags can use the onclick
 attriute.
 -->
-<a href="classEx06b.html" onclick='changeLinkText()'>Excersize</a>
+    <a href="classEx06b.html" onclick='changeLinkText()'>Excersize</a>
 </li>
 <li>
-<a href="assignments.html" onclick='changeColor()'>Assignments</a>
+    <a href="assignments.html" onclick='changeColor()'>Assignments</a>
 </li>
 </ul>
 </div>
@@ -142,7 +163,15 @@ This div could easly have been a section or aside tag
 as it is being used to layout other elements of the page.
 -->
 <div id='innerDivBodyLeft'>
-<a href='#' id='divLeft' onclick='changeDivRightText()'>Default Page Load Link</a>
+<a href='#' id='divLeft' onclick='changeDivRightText()'>Home</a>
+<br>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classEx01.html">Class Ex01</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classEx02a.html">Class Ex02a</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classEx02b.html">Class Ex02b</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/assignmentsportal/classEx03.html">Class Ex03</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classEx04a.html">Class Ex04a</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classEx05.html">Class Ex05</a>
+    <a href="https://github.com/DEVELOP-ENG/itc-111/blob/master/classEx/classTribute.html">Class Ex06</a>
 </div>
 <!--
 This div is lined up right next to the previous one. CSS is used to align it
