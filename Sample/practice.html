@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Enter First Name: <input type="text" id="firstName">
+        <br>
+        <hr>
+        <br>
+        Enter Last Name: <input type="text" id="lastName">
+        <br>
+        <hr>
+        <br>
+        <button onclick="greeting()">Create Greeting</button>
+        <br>
+        <hr>
+        <br>
+        Greeting : <input type="text" id="greeting">
+        <br>
+        <hr>
+        <br>
+    </p>
+        <script>
+
+            function greeting(firstName, lastName) {
+                var firstName = document.getElementById(firstName)
+                var lastName = document.getElementById(lastName)
+                var greeting = `Hello ${firstName} ${lastName}, how are you doing?`
+                return
+                document.getElementById(greeting) = console.log(greeting)} 
+        </script>
+
+    
+
+
+</body>
+</html>
