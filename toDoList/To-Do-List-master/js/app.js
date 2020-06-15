@@ -15,12 +15,32 @@ const LINE_THROUGH = "lineThrough";
 const options = {weeday : "long", month:"short", day:"numeric"};
 const today = new Date();
 dataElement.innerHTML = today.toLocaleDateString("en-US", options)
-function addToDo(toDo){
-    const item = '
-                <li class = "item"
-                <i class="fa fa-circle-thin co" job = "complete" id="0"></i>
-                <p class="text">{toDo}</p>
+
+function addToDo(toDo, id, done, trash){
+   
+    if(trash){ return; }
+
+    const DONE = done ? CHECK : UNCHECK;
+    const LINE = done ? LINE_THROUGH : "";
+
+    const item =`<li class="item"
+                <i class="fa ${DONE} co" job = "complete" id="${id}"></i>
+                <p class="text ${LINE}">{toDo}</p>
                 <i class="fa fa-trash-o de" job = "delete" id="0"></i>
                 </li> 
-                ';
+                `;
+    const position = "beforeend";
+
+    list.insertAdjacentHTML(position, item);
 }
+document.addEventListener("keyup",function(even)){
+    if(event.keyCode == 13){
+        const toDo =input.value;
+        if(toDo){
+            addToDo(toDo);
+        }
+        input
+    }
+}
+
+addToDo("Cofee", 1, false, false)
