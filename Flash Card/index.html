@@ -29,34 +29,35 @@
 
         <section class="center margin" id="pagination">
             <a href="#">
-                <section class="pg8tn center margin" onclick="prvWrd()">
+                <section class="pgBtn center margin" onclick="prvWrd()">
                     <p id="prev"></p>
                 </section>
             </a>
             <a href="#">
-                <section class="pg8tn center margin" onclick="flipWrd()">
+                <section class="pgBtn center margin" onclick="flipWrd()">
                     <p class="" id="flip">flip</p>
                 </section>
             </a>
             <a href="#">
-                <section class="pg8tn center margin" onclick="nxtWrd()">
+                <section class="pgBtn center margin" onclick="nxtWrd()">
                     <p id="next">>></p>
                 </section>
             </a>
         </section>
 
         <section class="center margin" id="swapLangBtn">
-            <section id="target1" onchange="setList(this)">
+            <selection id="target1" onchange="setList(this)">
                 <option value="English">English</option>
                 <option value="Swahili">Swahili</option>
-            </section>             
+            </selection>             
                 <input type="button" id="swapBtn" value="<=>" onclick="swapTargets()">&nbsp;
-                
-                <section id="target1" onchange="setList(this)">
+<!---->                
+                <selection id="target1" onchange="setList(this)">
                     <option value="English">English</option>
                     <option value="Swahili">Swahili</option>
-                </section>
+                </selection>
         </section>
+        <!--Language List Section End-->
     </div>
     <script src="app.js"></script>
 </body>
