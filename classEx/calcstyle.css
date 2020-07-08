@@ -1,5 +1,5 @@
 .main {
-    background-color: tan;
+    background-color: rgb(5, 2, 2);
     margin: 0 auto;
     padding: 2px 2px auto;
     width: max-content;
@@ -34,7 +34,7 @@ button {
     float: left;
 }
 button:hover {
-    background-color: cadetblue;
+    background-color: rgb(22, 41, 212);
 }
 button:active {
     background-color: cornflowerblue;
